@@ -1,5 +1,9 @@
 import 'package:flutter/cupertino.dart';
-import 'package:mechat_app/screens/chat.dart';
+import 'package:mechat_app/screens/chats.dart';
+import 'package:mechat_app/screens/contacts.dart';
+import 'package:mechat_app/screens/discover.dart';
+
+import 'me.dart';
 
 class HomeScreen extends StatelessWidget {
 
@@ -31,9 +35,13 @@ class HomeScreen extends StatelessWidget {
         ),
         tabBuilder: (context, index) {
           if (index == 0) {
-            return ChatScreen();
+            return ChatsScreen();
+          } else if (index == 1){
+            return ContactsScreen();
+          } else if (index == 2){
+            return DiscoverScreen();
           } else {
-            return ChatScreen();
+            return MeScreen();
           }
         });
   }

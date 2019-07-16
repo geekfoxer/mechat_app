@@ -31,6 +31,7 @@ flutter:
     - assets/icon/tabbar_mainframeHL@3x.png
     - assets/icon/tabbar_me@3x.png
     - assets/icon/tabbar_meHL@3x.png
+    - assets/images/pi.jpg
 
 flutter_icons:
   ios: true
