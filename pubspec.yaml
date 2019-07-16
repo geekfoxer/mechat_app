@@ -1,0 +1,39 @@
+name: mechat_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # https://pub.dev/packages/flutter_launcher_icons
+  # flutter packages get
+  # flutter packages pub run flutter_launcher_icons:main
+  flutter_launcher_icons: ^0.7.2+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/tabbar_contacts@3x.png
+    - assets/icon/tabbar_contactsHL@3x.png
+    - assets/icon/tabbar_discover@3x.png
+    - assets/icon/tabbar_discoverHL@3x.png
+    - assets/icon/tabbar_mainframe@3x.png
+    - assets/icon/tabbar_mainframeHL@3x.png
+    - assets/icon/tabbar_me@3x.png
+    - assets/icon/tabbar_meHL@3x.png
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: "assets/icon/launcher_icon3.png"
+
