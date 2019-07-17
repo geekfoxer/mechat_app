@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  azlistview: ^0.1.2
+  lpinyin: ^1.0.7
 
 dev_dependencies:
   flutter_test:
@@ -36,6 +38,19 @@ flutter:
     - assets/images/ic_settings.png
     - assets/images/wechat-pay-line.png
     - assets/images/ic_album.png
+    - assets/data/contacts.json
+    - assets/images/ic_group_chat.png
+    - assets/images/ic_new_friend.png
+    - assets/images/ic_official_account.png
+    - assets/images/ic_tag.png
+    - assets/avartar/a001.jpg
+    - assets/avartar/a002.png
+    - assets/avartar/a003.jpg
+    - assets/avartar/a004.jpg
+    - assets/avartar/a005.jpg
+    - assets/avartar/a006.jpg
+    - assets/avartar/a007.jpg
+    - assets/avartar/a008.jpg
 
 flutter_icons:
   ios: true
