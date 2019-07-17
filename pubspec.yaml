@@ -32,6 +32,10 @@ flutter:
     - assets/icon/tabbar_me@3x.png
     - assets/icon/tabbar_meHL@3x.png
     - assets/images/pi.jpg
+    - assets/images/ic_collections.png
+    - assets/images/ic_settings.png
+    - assets/images/wechat-pay-line.png
+    - assets/images/ic_album.png
 
 flutter_icons:
   ios: true
