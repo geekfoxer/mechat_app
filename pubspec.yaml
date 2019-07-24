@@ -43,6 +43,7 @@ flutter:
     - assets/images/ic_new_friend.png
     - assets/images/ic_official_account.png
     - assets/images/ic_tag.png
+    - assets/images/loading.jpg
     - assets/avartar/a001.jpg
     - assets/avartar/a002.png
     - assets/avartar/a003.jpg
